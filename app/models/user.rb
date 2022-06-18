@@ -1,0 +1,9 @@
+# has email:string in our db
+# has password_digest:string in our db
+#
+# password:string is a virtual attribute
+# password_confirmation:string is a virtual attribute
+
+class User < ApplicationRecord
+  has_secure_password
+end
