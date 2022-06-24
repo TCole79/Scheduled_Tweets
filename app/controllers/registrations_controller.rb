@@ -8,8 +8,8 @@ class RegistrationsController < ApplicationController
     if @user.save
       redirect_to root_path, notice: "Successfully created account."
     else
-      flash[:alert] = "Uh oh ninja, something went wrong."
-      render :new
+      # flash[:alert] = "Uh oh ninja, something went wrong."
+      render :new, status: :unprocessable_entity
     end
   end
 
