@@ -36,3 +36,8 @@
 
 /config/credentials/development.key
 .idea/workspace.xml
+.idea/vcs.xml
+.idea/scheduled_tweets.iml
+.idea/modules.xml
+.idea/misc.xml
+.idea/dataSources.xml
